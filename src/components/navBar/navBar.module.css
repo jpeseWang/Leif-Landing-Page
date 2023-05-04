@@ -1,0 +1,50 @@
+.logo{
+    position: relative;
+    font-size: 35px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 600;
+}
+.navbar{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 35px;
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 18px 10%;
+    background: transparent;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.nav-link {
+    font-size: 22px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 35px;
+  }
+.nav-link:hover{
+    color: #F9A825;
+}
+.main{
+    background: url(https://images.unsplash.com/photo-1682961941145-e73336a53bc6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 120vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    background-position: 50% 0;
+}

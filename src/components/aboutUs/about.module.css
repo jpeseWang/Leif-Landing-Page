@@ -1,0 +1,53 @@
+
+.homeContent{
+    padding-top: 40px;
+    max-width: 700px;
+    z-index: 2;
+    font-size: 140%;
+    backdrop-filter: blur(10px);
+    width: 120vh;
+    height: 50vh;
+   
+}
+h1{
+    font-size: 300%;
+}
+
+h3{
+    color: #00abf0;
+    font-size: 150%;
+    display: inline-block;
+}
+.btnBox a{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    width: 150px;
+    height: 100%;
+    background: #00abf0;
+    border: 2px solid #00abf0;
+    border-radius: 8px;
+    color: #081b29;
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    z-index: 3;
+    overflow: hidden;
+}
+.btnBox a:nth-child(2){
+    background: transparent;
+    color: #00abf0
+}
+.btnBox a:nth-child(2):hover{
+    background: whitesmoke;
+    color: #00cefa;
+    z-index: 110;
+}
+
+.btnBox a:hover{
+    background: #00cefa;
+    color: #F6F1F1;
+    z-index: 110;
+}

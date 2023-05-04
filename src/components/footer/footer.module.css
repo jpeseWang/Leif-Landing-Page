@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+.footerBase{
+    background-color: #252830;
+    text-decoration: none;
+    padding: 2%;
+    
+    display: grid;
+}
+.footer{
+    background-color: var(--secondary-background-color);
+}
+.title{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 140%;
+}
+
+.footer-container{
+    gap: var(--gap);
+    text-decoration: none;
+}
+
+.company-data{
+    display: flex;
+    flex-direction: column;
+    order: 1;
+}
+.content{
+    color: #afb6cd;
+    list-style-type: none;
+}
+.content a{
+    color: #afb6cd;
+    list-style-type: none;
+    text-decoration: none;
+}
+.companyDescription{
+    margin-block: var(--margin-sm);
+    max-width: 75%;
+}
+
+.social-media{
+    margin-bottom: var(--margin-md);
+}
+
+.copyright-notice{
+    opacity: .8;
+}
+
+.footer-list{
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer-title{
+    font-size: var(--font-size-sm);
+    text-transform: uppercase;
+    margin-bottom: var(--margin-sm);
+}
+.list{
+    display: flex;
+    align-items: center;
+    gap: 5%;
+    line-height: 150%;
+}
+.companyData{
+    display: flex;
+    flex-direction: column;
+    order: 0;
+    max-width: 75%;
+    
+}
+.submit{
+   color:  rgb(245, 151, 19);
+   font-style: oblique;
+}
+.footer1 input[type="email"]{
+    border: none;
+    color: red;
+    width: 300px;
+    height: 20px;
+    font-size: large;
+    border-radius: 5px;
+    margin-top: 0.5%;
+    margin-right: 0.5%;
+    border: none;
+    
+}
+.footer1 input[type="submit"]{
+    background-color: rgb(5, 153, 245);
+    color: azure;
+    font-weight:bolder;
+    width: 5%;
+    height: 25px;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+}
+.footer1 input[type="submit"]:hover{
+    background-color: rgb(245, 25, 208);
+    color: black;
+    box-shadow: 5px rgb(245, 25, 208);
+    box-shadow: 0 0 5px rgb(245, 25, 208),
+    0 0 25px rgb(245, 25, 208),
+    0 0 50px rgb(245, 25, 208),
+    0 0 90px rgb(245, 25, 208);
+}
