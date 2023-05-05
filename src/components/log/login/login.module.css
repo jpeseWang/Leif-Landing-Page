@@ -100,7 +100,7 @@ input[type="text"]::placeholder {
     top:0;
     left: 0;
     padding: 10px 0;
-    font-size: 130%;
+    font-size: 120%;
     color: #fff;
     pointer-events: none;
     transition: .5s;
@@ -227,3 +227,16 @@ input[type="text"]::placeholder {
     }
   }
 
+h3:nth-child(2){
+  color: rgb(247, 216, 190)
+}
+.term{
+  display: inline-block;
+  padding: 10px 5px;
+  font-weight: bolder;
+  font-size: 120%;
+}
+.term input{
+  width: 150%;
+  height: 150%;
+}

@@ -5,13 +5,18 @@ import styles from './home.module.css';
 function Home(){
     document.title = "Cosmos E-learning | Home";
     return(
-        <div>
-        <h1>Home page</h1>
         
+        <div className={styles.home}>
+            <section className={styles['home-content']}>
+        <h1>Hi! I'm Leif</h1>
+        <h3>Frontend Developer</h3>
+        <p>The href attribute requires a valid value to be accessible. 
+            <br></br>
+            Provide a valid, navigable address as the href value.  </p>
 
       
 
-
+        </section>
         </div>
     )
 }

@@ -1,0 +1,16 @@
+.home{
+    
+    background-position: left center;
+    height: 120vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    background-position: 50% 0;
+}
+
+    .home-content{
+        max-width: 600px;
+        z-index: 2;
+        padding-left: 2%;
+    }

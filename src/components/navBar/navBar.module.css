@@ -37,6 +37,28 @@
 .nav-link:hover{
     color: #F9A825;
 }
+.nav-link1 {
+    font-size: 22px;
+    color: #f79b08;
+    background-color: transparent;
+    background-size:cover;
+    border: 3px solid #F9A825;
+    padding: 4px;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 35px;
+    border-radius: 5px;
+  }
+  .nav-link1:hover{
+    background-color: rgb(245, 25, 208);
+    color: white;
+    border: 3px solid rgb(245, 25, 208);
+    box-shadow: 5px rgb(245, 25, 208);
+    box-shadow: 0 0 5px rgb(245, 25, 208),
+    0 0 25px rgb(245, 25, 208),
+    0 0 50px rgb(245, 25, 208),
+    0 0 90px rgb(245, 25, 208);
+  }
 .main{
     background: url(https://images.unsplash.com/photo-1682961941145-e73336a53bc6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80) no-repeat;
     background-size: cover;
