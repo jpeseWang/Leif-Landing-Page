@@ -106,22 +106,31 @@ input[type="text"]::placeholder {
     transition: .5s;
   }
 
-  .login-box .user-box input:invalid ~ label {
-    top: -20px;
-    left: 0;
-    color: #03e9f4;
-    font-size: 15px;
-    font-weight: bolder;
-  }
-  
-  .login-box .user-box input:focus ~ label {
-    top: -20px;
-    left: 0;
-    color: #03e9f4;
-    font-size: 15px;
-    font-weight: bolder;
-  }
 
+  .form-label, .login-box .user-box input:focus ~ label{
+    top: -20px;
+    left: 0;
+    color: #03e9f4;
+    font-size: 15px;
+    font-weight: bolder;
+  }
+  .form-label, .login-box .user-box input:not(:placeholder-shown) + .form-label{
+    top: -20px;
+    left: 0;
+    color: #03e9f4;
+    font-size: 15px;
+    font-weight: bolder;
+  }
+  /* .login-box .user-box input:valid ~ label {
+    position: absolute;
+    top:0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 120%;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+  } */
   
   .login-box form a {
     position: relative;

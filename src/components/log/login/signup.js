@@ -15,17 +15,17 @@ function Signup(){
         <h3>Hello, welcome to our website!</h3>
        
         <div className={styles['user-box']}>
-            <input type="text" name="" required=""/>
-                <label><i class="fa-solid fa-user"></i> Full name</label>
+            <input type="text" name="" required="" placeholder="  "/>
+                <label className={styles['form-label']}><i class="fa-solid fa-user"></i> Full name</label>
         </div>
         <div className={styles['user-box']}>
-            <input type="text" name="" required=""/>
-                <label><i class="fa-solid fa-user"></i> Username</label>
+            <input type="text" name="" required="" placeholder="  "/>
+                <label className={styles['form-label']}><i class="fa-solid fa-user"></i> Username</label>
          </div>
     
     <div className={styles['user-box']}>
-      <input type="password" name="" required=""/>
-      <label><i class="fa-solid fa-lock"></i> Password</label></div>
+      <input type="password" name="" required="" placeholder="  "/>
+      <label className={styles['form-label']}><i class="fa-solid fa-lock"></i> Password</label></div>
       
     
         <br></br>
